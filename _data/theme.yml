@@ -94,11 +94,11 @@ bootswatch: vapor
 
 # THEME FONTS
 base-font-size: 1.2em
-text-color: "#191919"
+text-color: "#ffffff"
 link-color: "#0d6efd"
 base-font-family: # comment out for bootstrap defaults. e.g. Roboto
 font-cdn: # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-
+btn-outline-primary
 # THEME ICONS [optional!]
 # cb-gh uses Bootstrap Icons, https://icons.getbootstrap.com/
 # the "icons" object below can override the default icons and add new icons
