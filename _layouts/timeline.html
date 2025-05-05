@@ -49,7 +49,7 @@ custom-foot: js/timeline-js.html
             </th>
             <td>
                 <div class="row">
-                    {%- assign inYear = items | where_exp: 'item', 'item[creation date] contains year' -%}
+                    {%- assign inYear = items | where_exp: 'item', 'item.creation date contains year' -%}
                     {% for item in inYear %}
                     <div class="col-lg-4 col-md-6">
                         <a href="{% if item.parentid == nil %}{{ '/item.html' | relative_url | append: '?id=' | append: item.objectid }}{% elsif item.parentid %}{{ '/item.html' | relative_url | append: '?id=' | append: item.parentid | relative_url }}#{{ item.objectid }}{% endif %}" >
