@@ -8,7 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
+{% include feature/image.html objectid="moth" width="75" %}
 
 {% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
 
@@ -16,9 +16,9 @@ credits: true
 
 This collection was created to showcase artwork from Sarah Persico's childhood all the way to adulthood.  
 
--school projects
--commmisions
--sketches
+- school projects
+- commmisions
+- sketches
 
 
 
