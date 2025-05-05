@@ -30,7 +30,7 @@ subjects-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g.
 ##########
 # LOCATIONS PAGE
 #
-locations-fields: location;Algonquin;Rock Island # set the field to be featured in the cloud
+locations-fields: creation location;Algonquin, Illinois;Rock Island, Illinois # set the field to be featured in the cloud
 locations-min: 1 # min size for subject cloud, too many terms = slow load time!
 locations-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
@@ -50,8 +50,8 @@ map-cluster-radius: 25 # size of clusters, from ~ 10 to 80
 ##########
 # TIMELINE PAGE
 #
-year-navigation: #"" # 
-year-nav-increment: 5 # set increments when auto gen nav years
+year-navigation: 
+year-nav-increment: 2 # set increments when auto gen nav years
 
 ##########
 # DATA 
