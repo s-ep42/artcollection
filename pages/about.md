@@ -16,11 +16,9 @@ credits: true
 
 This collection was created to showcase artwork from Sarah Persico's childhood all the way to adulthood.  
 
-- a CSV of collection metadata
-- a folder of JPG images or PDF documents
+-school projects
+-commmisions
+-sketches
 
-The template repository features four objects from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital). 
-
-For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
 
 
